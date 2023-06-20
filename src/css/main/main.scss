@@ -1,7 +1,7 @@
 #card {
 	position: relative;
 	width: 100vw;
-	height: 100vh;
+	height: 40vh;
 	color: #93979e;
 	display: flex;
 	justify-content: center;
@@ -108,6 +108,29 @@
 					transform: translateY(-2px);
 				}
 			}
+		}
+
+
+		#postitle {
+			text-align: left;
+			font-size: larger;
+
+			@media screen {
+			}
+		}
+
+		#posts {
+			text-align: left;
+			font-size: large;
+
+			@media screen {
+			}
+		}
+
+			
+		footer {
+			padding-top: 2vh;
+			font-size: smaller;
 		}
 	}
 }

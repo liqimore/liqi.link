@@ -8,7 +8,7 @@
 		"title": "Ricky Li",
 		"subtitle": "Just another coder",
 		"enter": "click to enter",
-		"supportAuthor": true,
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
@@ -21,7 +21,7 @@
 		},
 		"ul": {
 			"first": {
-				"href": "blog/",
+				"href": "https://liqimore.com/",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
@@ -41,6 +41,18 @@
 				"text": "Github"
 			}
 		},
-		"icp": "晋ICP备15001802号-13"
+		"icp": "晋ICP备15001802号-13",
+		"icplink": "https://beian.miit.gov.cn/",
+		"foot": "Ricky@2023",
+		"posts": {
+			"headername": "Featured Post",
+
+			"post1": {
+				"href" : "https://liqimore.com/2023/rfc1918-conflict-openwrt-easyconnect/",
+				"text" : "解决openwrt作为主路由,使用easyconnect无法解析dns的问题",
+				"date" : "2023-6-11"
+			}
+
+		}
 	}
 }

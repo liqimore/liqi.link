@@ -9,12 +9,12 @@
 			- const { first , second , third, fourth } = main.ul
 			ul
 				li
-					a(href=`${first.href}` aria-label=`${first.text}`)
+					a(href=`${first.href}` aria-label=`${first.text}` target="_blank")
 						i(class=`icon icon-${first.icon}`)
 						span(data-translate=`${first.text}`) #{first.text}
 
 				li
-					a(href=`${second.href}` aria-label=`${second.text}`)
+					a(href=`${second.href}` aria-label=`${second.text}` target="_blank")
 						i(class=`icon icon-${second.icon}`)
 						span(data-translate=`${second.text}`) #{second.text}
 
@@ -27,5 +27,16 @@
 					a(href=`${fourth.href}` aria-label=`${fourth.text}` target="_blank")
 						i(class=`icon icon-${fourth.icon}`)
 						span(data-translate=`${fourth.text}`) #{fourth.text}
+			p
+				h1#postitle(data-translate="main.posts.headername") #{main.posts.headername}
+
+				ul#posts
+					li
+						a(href=`${main.posts.post1.href}` aria-label=`${main.posts.post1.text}` target="_blank")
+							span(data-translate=`${main.posts.post1.text}`) #{main.posts.post1.text}
+						span(data-translate="main.posts.post1.date") #{" --- " + main.posts.post1.date}
 			footer 
-				span#signature(data-translate="icp") #{main.icp}
+				span(data-translate="foot") #{main.foot}
+				br
+				a(href=`${main.icplink}` aria-label=`${main.icp}` target="_blank")
+					span(data-translate="icp") #{main.icp}
